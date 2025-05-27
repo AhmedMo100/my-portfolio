@@ -4,6 +4,7 @@ import { db } from "../firebase/Firebase";
 import { doc, getDoc } from "firebase/firestore";
 import { FaHammer } from "react-icons/fa";
 import { motion as Motion } from "framer-motion";
+import { BsLightningCharge } from 'react-icons/bs';
 
 const Skills = () => {
     const [skills, setSkills] = useState(null);
@@ -95,6 +96,9 @@ const Skills = () => {
                     </a>
                 </div>
             </Container>
+            <div className="section-icon">
+                <BsLightningCharge />
+            </div>
         </section>
     );
 };

@@ -4,6 +4,7 @@ import { db } from "../firebase/Firebase";
 import { doc, getDoc } from "firebase/firestore";
 import { FaUserCircle } from "react-icons/fa";
 import { motion as Motion } from "framer-motion";
+import { FaUser } from 'react-icons/fa';
 
 const About = () => {
     const [aboutData, setAboutData] = useState(null);
@@ -72,6 +73,9 @@ const About = () => {
                     </div>
                 )}
             </Container>
+            <div className="section-icon">
+                <FaUser />
+            </div>
         </section>
     );
 };

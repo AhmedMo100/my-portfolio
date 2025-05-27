@@ -5,6 +5,7 @@ import { collection, getDocs } from "firebase/firestore";
 import { useNavigate } from "react-router-dom";
 import { FaProjectDiagram } from "react-icons/fa";
 import { motion as Motion } from "framer-motion";
+import { MdWorkOutline } from 'react-icons/md';
 
 const Projects = () => {
     const [projects, setProjects] = useState(null);
@@ -88,6 +89,9 @@ const Projects = () => {
                     </Button>
                 </div>
             </Container>
+            <div className="section-icon">
+                <MdWorkOutline />
+            </div>
         </section>
     );
 };
