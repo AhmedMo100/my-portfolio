@@ -83,7 +83,7 @@ const Projects = () => {
                     ))}
                 </Row>
 
-                <div className="view-projects mt-5 text-center">
+                <div className="view-projects mt-5">
                     <Button onClick={() => navigate("/projects")}>
                         View More
                     </Button>

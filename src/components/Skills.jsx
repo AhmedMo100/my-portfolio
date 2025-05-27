@@ -34,7 +34,7 @@ const Skills = () => {
 
     if (!skills) {
         return (
-            <div className="hero-loader d-flex flex-column justify-content-center align-items-center text-center" style={{ height: "50vh" }}>
+            <div className="hero-loader d-flex flex-column justify-content-center align-items-center" style={{ height: "50vh" }}>
                 <Motion.div
                     animate={{ rotate: 360 }}
                     transition={{ duration: 2, repeat: Infinity, ease: "linear" }}
@@ -90,7 +90,7 @@ const Skills = () => {
                     ))}
                 </Row>
 
-                <div className="hire-me mt-5 text-center">
+                <div className="hire-me mt-5">
                     <a href="#contact">
                         <Button variant="primary">Hire Me</Button>
                     </a>

@@ -330,6 +330,7 @@ footer#footer p {
 #skills .hire-me,
 #projects .view-projects {
   margin-top: 3rem;
+  text-align: start !important;
 }
 
 #skills .hire-me button,
@@ -351,27 +352,38 @@ footer#footer p {
 }
 
 @media (max-width: 820px) {
-  #skills, #projects {
+
+  #skills,
+  #projects {
     text-align: center;
     margin: 0 15px !important;
   }
 
-  #skills h2, #projects h2 {
+  #skills h2,
+  #projects h2 {
     font-size: 1.7rem !important;
   }
 
-  #skills h5, #projects h5 {
+  #skills h5,
+  #projects h5 {
     font-size: 1.1rem !important;
     line-height: 35px !important;
   }
 
-  #skills .btn, #projects .btn {
+  #skills .btn,
+  #projects .btn {
     margin: 0 auto;
   }
 
-  #skills p, #projects p {
+  #skills p,
+  #projects p {
     font-size: 0.9rem !important;
     line-height: 1.6;
+  }
+
+  #skills .hire-me,
+  #projects .view-projects {
+    text-align: center !important;
   }
 }
 
